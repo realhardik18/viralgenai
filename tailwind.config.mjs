@@ -13,5 +13,11 @@ export default {
       },
     },
   },
+  
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: [  // list theme you want to use in your project.
+      "sunset",    
+    ]
+  }      
 };

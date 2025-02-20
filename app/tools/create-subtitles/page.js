@@ -2,8 +2,8 @@ import React from 'react'
 
 function CreateSubtitles() {
   return (
-    <div>CreateSubtitles
-    
+    <div>
+      <p className='text 4-xl'>hi</p>
     </div>
   )
 }
