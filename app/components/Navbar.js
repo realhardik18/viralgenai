@@ -5,7 +5,9 @@ function Navbar() {
   return (
     <div className="navbar bg-base-100">
     <div className="flex-1">
-        <a className="btn btn-ghost text-xl">ViralGen</a>
+        <Link href={'/'}>
+            <p className="btn btn-ghost text-xl">ViralGen</p>
+        </Link>
     </div>
     <div className="flex-none">
         <div className="dropdown dropdown-end">
